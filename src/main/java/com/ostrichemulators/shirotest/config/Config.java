@@ -70,8 +70,8 @@ public class Config {
 	}
 
 	@Bean
-	public ShiroFilterChainDefinition shiroFilterChainDefinition() {
-	//public ShiroFilterChainDefinition improperlyNamedShiroFilterChainDefinition() {
+	//public ShiroFilterChainDefinition shiroFilterChainDefinition() {
+	public ShiroFilterChainDefinition improperlyNamedShiroFilterChainDefinition() {
 		DefaultShiroFilterChainDefinition chainDefinition = new DefaultShiroFilterChainDefinition();
 
 		// anonymous users can hit the login page
